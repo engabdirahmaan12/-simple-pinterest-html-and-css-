@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Pinterest-like Responsive Grid</title>
+    <style>
+        .grid-container {
+            column-gap: 20px;
+            justify-content: space between;
+            display: grid;
+            margin: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .grid-item {
+            display: inline-block;
+            margin: 20px;
+            vertical-align: top;
+            width: 100%;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+            justify-content: space between;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid;
+        }
+
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 1">
+            <h2>SAWIRA A</h2>
+            <p>– Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 2">
+            <h2>SAWIRKA 2</h2>
+            <p> – Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 3">
+            <h2>SAWIRKA 3</h2>
+            <p>– Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 4">
+            <h2>SAWIRKA 4</h2>
+            <p>– Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+
+
+        
+        <!-- Add more grid items as needed -->
+    </div>
+<div class="grid-container">
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 1">
+            <h2>SAWIRA A</h2>
+            <p>– Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 2">
+            <h2>SAWIRKA 2</h2>
+            <p> – Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 3">
+            <h2>SAWIRKA 3</h2>
+            <p>– Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+        <div class="grid-item">
+            <img src="image1.PNG" alt="Image 4">
+            <h2>SAWIRKA 4</h2>
+            <p>– Inta aad muujisato wax badan oo kale ha kaaga hooseeyaan, inta aad og tahay in ka yarna sheeg. (Shakespeare) – Geesinimadu ma’aha in aad aargoosato, balse waa inta aad dulqaad iyo Samir leedahay. (Shakespeare) – Si aynu dadka ugu qancinno sida aynu u fikirayno, marka hore waa in aynu fahamno sida ay iyagu u fikirayaan. Haddii aad doonayso in …</p>
+        </div>
+        <!-- Add more grid items as needed -->
+    </div>
+</body>
+</html>
